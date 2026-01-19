@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "Greet Me",
   "version": "0.1.0",
   "identifier": "com.emaaddeveloper.tauri-app",
   "build": {
@@ -13,9 +13,9 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "Greet Me",
+        "fullscreen": true,
+        "resizable": true
       }
     ],
     "security": {
